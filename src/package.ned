@@ -1,3 +1,3 @@
-package twdm_pon;
+package pon_service;
 
 @license(LGPL);

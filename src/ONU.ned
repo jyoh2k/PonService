@@ -13,7 +13,7 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-package twdm_pon;
+package pon_service;
 
 module ONU
 {
