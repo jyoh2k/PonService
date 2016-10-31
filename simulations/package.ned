@@ -1,16 +1,16 @@
-package twdm_pon.simulations;
+package pon_service.simulations;
 
 //import ned.DelayChannel;
 //import twdm_pon.Fiber;
-import twdm_pon.Host;
+import pon_service.Host;
 //import twdm_pon.Metro;
 //import twdm_pon.OLT;
-import twdm_pon.ONU;
+import pon_service.ONU;
 //import twdm_pon.Splitter;
 
 @license(LGPL);
 
-network TWDM_PON
+network PON_SERVICE
 {
     parameters:
         @display("bgb=1901,1556,,,0;i=background/streetmap;bgi=background/streetmap,s");
