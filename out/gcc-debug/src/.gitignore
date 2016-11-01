@@ -1,0 +1,3 @@
+*.o
+/.last-copts
+/PON_sim
