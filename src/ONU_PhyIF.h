@@ -13,8 +13,8 @@
 // along with this program.  If not, see http://www.gnu.org/licenses/.
 // 
 
-#ifndef __TWDM_PON_ONU_PHYIF_H_
-#define __TWDM_PON_ONU_PHYIF_H_
+#ifndef __PON_SERVICE_ONU_PHYIF_H_
+#define __PON_SERVICE_ONU_PHYIF_H_
 
 #include <omnetpp.h>
 #include <fstream>

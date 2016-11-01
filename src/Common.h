@@ -49,7 +49,7 @@ enum ONU_STATE {ONU_INITIAL_STATE0 = 0, ONU_INITIAL_STATE1, ONU_INITIAL_TUNING_S
 #define ASSIGN_ALLOC_ID         0x0A
 #define KEY_CTRL                0x0D
 #define SLEEP_ALLOW             0x12
-//for TWDM-PON
+//for PON
 #define WAVE_TUNING             0x20
 #define WAVE_CONFIRM            0x21
 #define COMELETION_D            0x22
@@ -60,7 +60,7 @@ enum ONU_STATE {ONU_INITIAL_STATE0 = 0, ONU_INITIAL_STATE1, ONU_INITIAL_TUNING_S
 #define KEY_REPORT              0x05
 #define ACK                     0x09
 #define SLEEP_REQ               0x10
-//for TWDM-PON
+//for PON
 #define WAVE_TUNING_ACK         0x23
 #define WAVE_TUNING_RESPONSE    0x24
 

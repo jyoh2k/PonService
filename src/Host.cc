@@ -44,9 +44,7 @@ void Host::initialize()
     timerInterval = par("timerInterval");
     connected = false;
 
-    //destID = simulation.getModuleByPath("TWDM_PON.metro")->getId();
-    //destID = getSimulation()->getModuleByPath("TWDM_PON.metro")->getId();  //@jason
-    destID = getSimulation()->getModuleByPath("TWDM_PON.onu")->getId();  //@jason
+    destID = getSimulation()->getModuleByPath("PON_SERVICE.onu")->getId();  //@jason
     seqNum = 0;
     WATCH(seqNum);
 
